@@ -1,0 +1,29 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.photo-card {
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.photo-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.info {
+  padding: 10px;
+  background: #f0f0f0;
+}
+
+.info-item {
+  margin: 5px 0;
+}
